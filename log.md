@@ -25,4 +25,4 @@
   Gotta crawl a lot of subdirectories and catalog everything.
 
 **Link to work**: [Original Py file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.py)
-                  [Ruby file]()
+                  [Ruby file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.rb)
