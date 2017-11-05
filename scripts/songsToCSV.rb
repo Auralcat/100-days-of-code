@@ -4,6 +4,17 @@ require 'csv'
 require 'find'
 require 'pp'
 
+class Array
+  def trim_string(str, sep=str)
+    # Returns the last portion of the string in the element, split
+    # in sep
+    self.each do |elem|
+      elem = elem.select{|x| x.include?(str)}.map{|x| x.split(sep).pop}
+    end
+    self
+  end
+end
+
 def generateFileName()
     # Generates the CSV file's name from the folder name
     Dir.pwd.split("/").pop
@@ -16,8 +27,8 @@ pp "You're in #{Dir.pwd}"
 # First we need to get the ratings you have issued already in MediaMonkey.
 # We'll use a shell program called id3info for this.
 raw_tags = `id3info *.mp3`.chop.split("\n")
-ratings = raw_tags.select{|x| x.include?("POPM")}.map{|x| x.split("rating=").pop}
-titles = raw_tags.select{|x| x.include?("(title):")}.map{|x| x.split("(title): ").pop}
+ratings = raw_tags.trim_string("POPM", "rating=")
+titles = raw_tags.trim_string("(title):")
 
 # The idea is to call that program for every directory it crawls.
 # It doesn't retrieve anything for files other than MP3 files.
