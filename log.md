@@ -26,3 +26,10 @@
 
 **Link to work**: [Original Py file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.py)
                   [Ruby file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.rb)
+
+### Day 2: Sáb Nov  4 23:56:16 BRST 2017
+
+**Today's Progress**: Fixed the links in the repo, for some reason I couldn't
+  get my folder to be recognized when I named it "scripts".
+
+**Thoughts**: -
