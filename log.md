@@ -54,3 +54,13 @@
 
 **Link to work**: [Original Py file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.py)
                   [Ruby file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.rb)
+
+### Day 4: Seg Nov  6 20:14:41 BRST 2017
+
+**Today's Progress**: Took a detour from the main project and ended up porting
+  the Fairyfloss color theme from @sailorhg to Emacs, after adjusting the
+  version proposed by @IrIna.
+
+**Thoughts**: (to be completed)
+
+**Link to work**: [Original Py file](https://github.com/Auralcat/fairyfloss/blob/gh-pages/fairyfloss-theme.el)
