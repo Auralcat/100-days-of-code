@@ -33,3 +33,24 @@
   get my folder to be recognized when I named it "scripts".
 
 **Thoughts**: -
+
+### Day 3: Dom Nov 5
+
+**Today's Progress**: Outlined the roadmap for the script:
+  - Read the ID3 tags of the mp3 files
+  - Copy the POPM tag info into a CSV file in the "rating" field
+
+  Also learned how to work with files and directories in Ruby.
+
+**Challenges**:
+  - Popularimeter tag isn't a standard
+  - FLAC files don't hold ID3 tags
+  - Not all the files have tags (or even correct ones)
+
+**Thoughts**: I'm using id3info to get the tags from the files, Ruby actually
+  works well for that by calling the command like `this`.  I found it easy to
+  extract the info from the string as well, with map() and split(), but this can
+  be done in Python too.
+
+**Link to work**: [Original Py file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.py)
+                  [Ruby file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.rb)
