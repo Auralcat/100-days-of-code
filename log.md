@@ -61,7 +61,10 @@
   the Fairyfloss color theme from @sailorhg to Emacs, after adjusting the
   version proposed by @IrIna.
 
-**Thoughts**: I could do a Vim port too, if there isn't one already. It'll go much faster, I'm sure of that.
+**Thoughts**: I could do a Vim port too, if there isn't one already. It'll go
+  much faster, I'm sure of that.
   Aaaaand, more sidetracking. I like the end result though :)
+  Another benefit was that I found a way to toggle transparency in the
+  terminal window without having to use the mouse.
 
-**Link to work**: [Original Py file](https://github.com/Auralcat/fairyfloss/blob/gh-pages/fairyfloss-theme.el)
+**Link to work**: [Elisp theme file](https://github.com/Auralcat/fairyfloss/blob/gh-pages/fairyfloss-theme.el)
