@@ -61,6 +61,7 @@
   the Fairyfloss color theme from @sailorhg to Emacs, after adjusting the
   version proposed by @IrIna.
 
-**Thoughts**: (to be completed)
+**Thoughts**: I could do a Vim port too, if there isn't one already. It'll go much faster, I'm sure of that.
+  Aaaaand, more sidetracking. I like the end result though :)
 
 **Link to work**: [Original Py file](https://github.com/Auralcat/fairyfloss/blob/gh-pages/fairyfloss-theme.el)
