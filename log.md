@@ -76,7 +76,7 @@
 
 **Thoughts**: There's no os.walk() method in Ruby.
 
-**Link to work**:[Ruby file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.rb)
+**Link to work**:[Scratch file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/scratch.rb)
 
 ### Day 6: Qua Nov  8
 
@@ -87,4 +87,4 @@
 **Thoughts**: You can pass a block to the Dir.glob() method, instead of
   using it to store the matches in an array.
 
-**Link to work**: [Ruby file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.rb)
+**Link to work**: [Scratch file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/scratch.rb)
