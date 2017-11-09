@@ -68,3 +68,23 @@
   terminal window without having to use the mouse.
 
 **Link to work**: [Elisp theme file](https://github.com/Auralcat/fairyfloss/blob/gh-pages/fairyfloss-theme.el)
+
+### Day 5: Ter Nov  7 23:51:06 BRST 2017
+
+**Today's Progress**: Continued to fiddle with songsToCSV.rb, learned how to
+  work with directories and files, tuned the Fairyfloss theme.
+
+**Thoughts**: There's no os.walk() method in Ruby.
+
+**Link to work**:[Ruby file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.rb)
+
+### Day 6: Qua Nov  8
+
+**Today's Progress**: Outlined the process to grab the information from the
+  music files spread throughout the library. Had some trouble with the
+  Dir.glob() method when using braces to match MP3, FLAC and M4A files.
+
+**Thoughts**: You can pass a block to the Dir.glob() method, instead of
+  using it to store the matches in an array.
+
+**Link to work**: [Ruby file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.rb)
