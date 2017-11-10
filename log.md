@@ -103,3 +103,11 @@
   still used to a GUI way of doing things.
 
 **Link to work**: [Working script](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.rb)
+
+### Day 8: Sex Nov 10 21:05:54 BRST 2017
+
+**Today's Progress**: Didn't code today, did some typing practice instead. Felt
+  like the script was completed, no new projects yet... and got a power outage
+  right now.
+
+**Thoughts**: It's just been a weird day.
