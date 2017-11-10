@@ -76,7 +76,7 @@
 
 **Thoughts**: There's no os.walk() method in Ruby.
 
-**Link to work**:[Scratch file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/scratch.rb)
+**Link to work**:[~~Scratch file~~](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/scratch.rb)
 
 ### Day 6: Qua Nov  8
 
@@ -87,4 +87,19 @@
 **Thoughts**: You can pass a block to the Dir.glob() method, instead of
   using it to store the matches in an array.
 
-**Link to work**: [Scratch file](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/scratch.rb)
+**Link to work**: [~~Scratch file~~](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/scratch.rb)
+
+### Day 7: Qui Nov  9 22:12:06 BRST 2017
+
+**Today's Progress**: Got a working version of songsToCSV.rb together! Now what's
+  left is just a few tweaks: adjust the title and album output data, generalize
+  the program (though it requires the music library to be structured in a
+  specific way), accept user input (the base directory of their music library)
+  and... it's ready for primetime!
+  Oh, and more fiddling with Fairyfloss. Added more faces for Org mode.
+
+**Thoughts**: It would be more difficult to do this in the past, now I got some
+  more know-how about things, and back when I started the Python version, I was
+  still used to a GUI way of doing things.
+
+**Link to work**: [Working script](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/songsToCSV.rb)
