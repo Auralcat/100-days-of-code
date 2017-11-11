@@ -123,6 +123,13 @@
   difference is that there were no sites accessed.
   Scraping with JSON seems more straightforward than doing it with
   BeautifulSoup or Nokogiri.
+  When you can get the data, you can do anything you want with it!
+  I wonder how could I integrate R into all this?
 
 **Link to work**: [Python](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/guessing_game.py)
                   [Ruby](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/guessing_game.rb)
+
+**Data scraping scripts**: [Soccer](https://github.com/Auralcat/100-days-of-code/blob/master/data-scraping/soccer_matches.py)
+                           [Jokes](https://github.com/Auralcat/100-days-of-code/blob/master/data-scraping/chuck_norris_jokes.py)
+                           [US Elections spending](https://github.com/Auralcat/100-days-of-code/blob/master/data-scraping/us_elections.py)
+                           [NY Times](https://github.com/Auralcat/100-days-of-code/blob/master/data-scraping/ny_times.py)
