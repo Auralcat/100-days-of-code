@@ -111,3 +111,14 @@
   right now.
 
 **Thoughts**: It's just been a weird day.
+
+### Day 9: Sáb Nov 11 12:47:30 -02 2017
+
+**Today's Progress**: Made a few guessing games in Python and Ruby, got the idea
+  to make a hangman game. Experimenting with data scraping now.
+
+**Thoughts**: I guess I kinda did data scraping with the music files. The
+  difference is that there were no sites accessed.
+
+**Link to work**: [Python](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/guessing_game.py)
+                  [Ruby](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/guessing_game.rb)
