@@ -9,17 +9,132 @@ name = input("What's your name? >>")
 
 print("Hello, " + name + ", time to play hangman! ✊")
 
+# Adding some ASCII art!
+HANGMANPICS = ['''
+
+
+
+   +---+
+
+   |   |
+
+       |
+
+       |
+
+       |
+
+       |
+
+ =========''', '''
+
+
+
+   +---+
+
+   |   |
+
+   O   |
+
+       |
+
+       |
+
+       |
+
+ =========''', '''
+
+
+
+   +---+
+
+   |   |
+
+   O   |
+
+   |   |
+
+       |
+
+       |
+
+ =========''', '''
+
+
+
+   +---+
+
+   |   |
+
+   O   |
+
+  /|   |
+
+       |
+
+       |
+
+ =========''', '''
+
+
+
+   +---+
+
+   |   |
+
+   O   |
+
+  /|\  |
+
+       |
+
+       |
+
+ =========''', '''
+
+
+
+   +---+
+
+   |   |
+
+   O   |
+
+  /|\  |
+
+  /    |
+
+       |
+
+ =========''', '''
+
+
+
+   +---+
+
+   |   |
+
+   O   |
+
+  /|\  |
+
+  / \  |
+
+       |
+
+ =========''']
 # Here we set the target word
 word = "secret"
 
 # Turn limit
 turns = 10
 current_word = "-" * len(word)
-fail_limit = 5
+fail_limit = 6
 fails = 0
 
 while turns > 0:
     turns -= 1
+    print(HANGMANPICS[fails - fail_limit - 1] + '\n')
     print(current_word)
     guess = input("Type a character: ")
 
@@ -42,7 +157,7 @@ while turns > 0:
         print("Congratulations, you found the secret word in " + str(turns) + " turns!")
         break
 
-    if (fails == fail_limit - 1):
+    if (fails == fail_limit):
         print("Aww, you don't have any more tries. Sorry, you lose.")
         break
 
