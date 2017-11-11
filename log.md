@@ -116,9 +116,13 @@
 
 **Today's Progress**: Made a few guessing games in Python and Ruby, got the idea
   to make a hangman game. Experimenting with data scraping now.
+  Added two Python scripts which get JSON files from APIs and display the data
+  to the user.
 
 **Thoughts**: I guess I kinda did data scraping with the music files. The
   difference is that there were no sites accessed.
+  Scraping with JSON seems more straightforward than doing it with
+  BeautifulSoup or Nokogiri.
 
 **Link to work**: [Python](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/guessing_game.py)
                   [Ruby](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/guessing_game.rb)
