@@ -133,3 +133,11 @@
                            [Jokes](https://github.com/Auralcat/100-days-of-code/blob/master/data-scraping/chuck_norris_jokes.py)
                            [US Elections spending](https://github.com/Auralcat/100-days-of-code/blob/master/data-scraping/us_elections.py)
                            [NY Times](https://github.com/Auralcat/100-days-of-code/blob/master/data-scraping/ny_times.py)
+
+**Days 10 and 11: Seg Nov 13 23:43:18 -02 2017
+
+**Today's Progress**: Started a tic-tac-toe game in Python, didn't code on Monday
+
+**Thoughts**: Nothing to comment.
+
+**Link to work**: [Tic-tac-toe](https://github.com/Auralcat/100-days-of-code/blob/master/scripts/tictactoe.py)
